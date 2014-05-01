@@ -27,5 +27,9 @@
 (require 'init-robe)
 (require 'init-projectile)
 
+(require-package 'htmlize)
+
+
+(provide 'init)
 
 
