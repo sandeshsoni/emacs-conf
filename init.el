@@ -26,7 +26,10 @@
 (require 'init-flymake)
 (require 'init-robe)
 (require 'init-projectile)
+(require 'init-recentf)
+(require 'init-editing-utils)
 
+(require 'init-css)
 (require-package 'htmlize)
 
 
