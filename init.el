@@ -21,6 +21,7 @@
 ;;     (add-to-list 'auto-mode-alist (cons pattern mode))))
 
 
+
 (require 'init-package)    ;; Machinery for installing required packages
 (require 'init-ido)
 (require 'init-flymake)
@@ -29,10 +30,12 @@
 (require 'init-recentf)
 (require 'init-editing-utils)
 
+(require 'init-coding-style)
+(require 'init-tabbar)
+
 (require 'init-css)
 (require-package 'htmlize)
 
 
 (provide 'init)
-
 
