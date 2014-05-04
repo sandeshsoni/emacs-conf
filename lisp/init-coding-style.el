@@ -17,4 +17,7 @@
 
 (add-hook 'prog-mode-hook 'whitespace-mode)
 
+(setq inhibit-splash-screen t)
+(setq inhibit-startup-message t)
+
 (provide 'init-coding-style)
