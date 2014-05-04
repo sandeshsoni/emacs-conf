@@ -1,6 +1,6 @@
 (defvar current-user
-      (getenv
-       (if (equal system-type 'windows-nt) "USERNAME" "USER")))
+  (getenv
+   (if (equal system-type 'windows-nt) "USERNAME" "USER")))
 
 (message "Soni is powering up... please Be patient, %s!" current-user)
 (when (version< emacs-version "24.1")
@@ -32,10 +32,11 @@
 
 (require 'init-coding-style)
 (require 'init-tabbar)
+(require 'init-themes)
 
 (require 'init-css)
 (require-package 'htmlize)
 
+(require 'init-custom-bindings)
 
 (provide 'init)
-
