@@ -21,6 +21,7 @@
 (require 'init-editing-utils)
 
 (require 'init-coding-style)
+(require 'init-view)
 (require 'init-tabbar)
 (require 'init-themes)
 
