@@ -13,4 +13,7 @@
 (global-set-key [M-S-up] 'move-text-up)
 (global-set-key [M-S-down] 'move-text-down)
 
+(require-package 'paren)
+(show-paren-mode t)
+
 (provide 'init-editing-utils)
